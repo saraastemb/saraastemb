@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coquette Calendar</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="calendar">
-        <h2>Coquette Calendar</h2>
-        
-</body>
-</html>
+    body {
+  font-family: Arial, sans-serif;
+}
 
+.calendar {
+  width: 300px;
+  margin: auto;
+}
+
+.month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+
+.weekdays div {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+}
+
+.days div {
+  padding: 10px;
+}
+
+.prev, .next {
+  cursor: pointer;
+}
 
 <h2>YEAR OF DRAGON🐉🐲</h2>
 
