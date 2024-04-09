@@ -3,43 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table, th, td {
-            border: 2px solid pink;
-            border-collapse: collapse;
-            padding: 12px;
-            text-align: center;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            font-size: 18px;
-        }
-        
-        td.holiday {
-            color: red;
-            font-weight: bold;
-        }
-        
-        td.sunday {
-            background-color: white;
-            color: red;
-            font-weight: bold;
-        }
-
-        h2 {
-            text-align: center;
-            color: maroon;
-            font-family: 'Arial Black', sans-serif;
-            font-size: 28px;
-            margin-bottom: 30px;
-        }
-    </style>
+    <title>Coquette Calendar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<!-- Your HTML content here -->
-
+    <div class="calendar">
+        <h2>Coquette Calendar</h2>
+        
 </body>
 </html>
+
 
 <h2>YEAR OF DRAGON🐉🐲</h2>
 
