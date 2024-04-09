@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    body {
-  font-family: Arial, sans-serif;
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendar Of 2024</title>
+<h1 style="text-align: center; color: red;">Year Of The Dragon 🐉</h1>
 
-.calendar {
-  width: 300px;
-  margin: auto;
-}
-
-.month {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.weekdays {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  text-align: center;
-}
-
-.weekdays div {
-  padding: 10px;
-  background-color: #f2f2f2;
-}
-
-.days {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  text-align: center;
-}
-
-.days div {
-  padding: 10px;
-}
-
-.prev, .next {
-  cursor: pointer;
-}
+<style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        td.holiday {
+            color: red;
+        }
+        
+        td.sunday {
+            background-color:white;
+            color: red;
+            }
+  body {
+    font-family: Courier New, sans-serif;
+    background-color: #f5f5f5;
+    color: #000000;
+    padding: 6px;
+  }
+  h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 33px;
+    margin-bottom: 30px;
+  }
+  h3 {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #000000;
+    background-color: #ffffff;
+  }
+  th, td {
+    border: 6px solid #000000;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    color: #000000;
+  }
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .holiday, .weekend {
+    background-color: #ffcccc;
+    color: #cc0000;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
 
 <h2>YEAR OF DRAGON🐉🐲</h2>
 
