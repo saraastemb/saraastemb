@@ -1,72 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calendar Of 2024</title>
-<h1 style="text-align: center; color: red;">Year Of The Dragon 🐉</h1>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-<style>
-        table, th, td {
-            border: 2px solid black;
-            border-collapse: collapse;
-            padding: 12px;
-            text-align: center;
-        }
-        
-        td.holiday {
-            color: red;
-        }
-        
-        td.sunday {
-            background-color:white;
-            color: red;
-            }
-  body {
-    font-family: Courier New, sans-serif;
-    background-color: #f5f5f5;
-    color: #000000;
-    padding: 6px;
-  }
-  h2 {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
     text-align: center;
-    color: #000000;
-    font-size: 33px;
-    margin-bottom: 30px;
-  }
-  h3 {
-    text-align: center;
-    color: #000000;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  table {
+    color: #e74c3c;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px #000000;
-    background-color: #ffffff;
-  }
-  th, td {
-    border: 6px solid #000000;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 15px;
     text-align: center;
-    padding: 12px;
-    font-size: 16px;
-    color: #000000;
-  }
-  th {
+}
+
+th {
     background-color: #f2f2f2;
     font-weight: bold;
-  }
-  .holiday, .weekend {
+    color: #333;
+}
+
+td {
+    color: #555;
+}
+
+.holiday {
     background-color: #ffcccc;
-    color: #cc0000;
+    color: #e74c3c;
     font-weight: bold;
-  }
-</style>
-</head>
-<body>
+}
+
+.weekend {
+    background-color: #f9f9f9;
+    color: #666;
+    font-weight: bold;
+}
+
 
 <h2>YEAR OF DRAGON🐉🐲</h2>
 
