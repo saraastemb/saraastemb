@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YEAR OF DRAGON</title>
-<h1 style="text-align: center; color: #ff69b4;"> Calendar 2024 🎀</h1>
-
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
         table, th, td {
             border: 2px solid pink;
             border-collapse: collapse;
@@ -34,9 +32,14 @@
             font-size: 28px;
             margin-bottom: 30px;
         }
-</style>
+    </style>
 </head>
 <body>
+
+<!-- Your HTML content here -->
+
+</body>
+</html>
 
 <h2>YEAR OF DRAGON🐉🐲</h2>
 
