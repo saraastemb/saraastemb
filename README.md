@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -8,9 +8,9 @@
 
 <style>
         table, th, td {
-            border: 2px solid pink;
-            border-collapse: collapse;
-            padding: 12px;
+            border: 4px solid pink;
+            border-collapse: bonder;
+            padding: 9px;
             text-align: center;
         }
 <style>
@@ -552,3 +552,4 @@
   </tbody>
 </table>
 
+n
