@@ -1,65 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendar Of 2024</title>
+<h1 style="text-align: center; color: red;">Calendar Of 2024</h1>
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+<style>
+        table, th, td {
+            border: 2px solid pink;
+            border-collapse: collapse;
+            padding: 12px;
+            text-align: center;
+        }
+<style>
+        table, th, td {
+            border: 3px solid pink;
+            border-collapse: border;
+            padding: 10px;
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-size: 18px;
+        }
+        
+        td.holiday {
+            color: red;
+            font-weight: bold;
+        }
+        
+        td.sunday {
+            background-color: 
+            red;
+            color: white;
+            font-weight: bold;
+        }
 
-h1 {
-    text-align: center;
-    color: #e74c3c;
-    font-size: 36px;
-    margin-bottom: 20px;
-}
+        h2 {
+            text-align: center;
+            color: red;
+            font-family: 'Arial Black',scrip
+            -serif;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+</style>
+</head>
+<body>
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-th, td {
-    border: 2px solid #ddd;
-    padding: 15px;
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-    color: #333;
-}
-
-td {
-    color: #555;
-}
-
-.holiday {
-    background-color: #ffcccc;
-    color: #e74c3c;
-    font-weight: bold;
-}
-
-.weekend {
-    background-color: #f9f9f9;
-    color: #666;
-    font-weight: bold;
-}
-
-
-<h2>YEAR OF DRAGON🐉🐲</h2>
+<h2>YEAR OF DRAGON🐉</h2>
 
 <!-- January -->
 <!-- January -->
@@ -493,7 +481,7 @@ td {
 
 
 <!-- November -->
-<h3>November 👻</h3><table>
+<h3>November 👻</h3><table>  
   
   <thead>
     <tr>
